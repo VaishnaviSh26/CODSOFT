@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./jsLogo.svg">
+</head>
+
+<body>
+    <main>
+        <form id="form">
+            <p class="alert"></p>
+            <h3 class="title">To Do List...</h3>
+            <div class="control">
+                <input type="text" id="entry" placeholder="Add your tasks...">
+                <button type="submit" class="btn submit-btn">Submit</button>
+                <button type="button" class="btn cancel-btn d-none">Cancel</button>
+            </div>
+        </form>
+
+        <ul id="todo-list" class="list-container">
+        </ul>
+
+        <button class="btn clear-btn d-none">Clear Items</button>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
